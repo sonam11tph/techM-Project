@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-6 col-sm-6 col-md-3" style="display: flex;">
+    <div class="form-group has-search">
+      <span class="fa fa-search form-control-search"></span>
+      <span class="fa fa-times form-control-close" *ngIf="searchText" (click)="clearSearch()"></span>
+      <input class="form-control form-control-lg form-control-borderless" [(ngModel)]="searchText" type="search"
+        placeholder="Search" (keyup)="getChange(searchText)">
+    </div>
+  </div>
+
+  <div class="col-6 col-sm-6 col-md-9 right">
+    Peter Hoang
+    <i class="fa fa-user" aria-hidden="true"><i class="fa fa-sort-desc" aria-hidden="true"></i></i>
+  </div>
+</div>

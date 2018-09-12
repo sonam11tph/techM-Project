@@ -1,0 +1,54 @@
+.form-control{
+    margin-bottom: 50px;
+}
+
+.fa-user{
+    font-size: 50px;
+    margin-top:5px;
+    margin-left:5px;
+}
+.fa-sort-desc{
+    font-size: 10px;
+    margin-left:10px;
+}
+
+.form-control-borderless{
+    border-radius: 25px;
+    padding: 5px 30px;
+}
+
+.right{
+    text-align: right;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    padding-top: 5px;
+}
+
+.has-search {
+    padding-top: 15px;
+}
+
+.has-search .form-control-search {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.has-search .form-control-close {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #aaa;
+    right: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+<div class="container">
+  <app-header (searchTextValue)="getSearchName($event)"></app-header>
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-3">
+      <app-center-panel [userInfo]="userInfo" [searchName]="searchName" (userDetails)="getUserDetails($event)"></app-center-panel>
+    </div>
+    <div class="col-12 col-sm-6 col-md-9">
+      <app-sidebar [displayUserData]="displayUserData"></app-sidebar>
+    </div>
+  </div>
+</div>
